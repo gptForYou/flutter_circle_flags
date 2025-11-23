@@ -10,7 +10,7 @@ builders:
       - circle_flags|combineFlagFile
 
   circle_flags|combineFlagFile:
-    import: "package:flag_builder/builders.dart"
+    import: "package:flag_builder/lib/builders.dart"
     builder_factories: ["combineFlagFile"]
     build_extensions: { r'$package$': ["lib/src/flags.dart"] }
     auto_apply: root_package
